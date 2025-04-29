@@ -1,31 +1,73 @@
-Stellar by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# Cybersecurity & Cloud Services - Static Website
+
+Welcome to the Cybersecurity & Cloud Services static website project. This repository contains the source code for a clean, modern, and responsive informational website focused on cloud security essentials and solutions, optimized for static hosting on AWS S3.
+
+## Features
+
+- Responsive design with a clean UI/UX
+- Modern CSS styling with gradients and animations
+- Sections for introduction, cloud security essentials, key solutions, and call-to-action
+- Accessible and semantic HTML5 markup
+- Uses Font Awesome for icons
+- Ready for deployment on AWS S3 or any static hosting platform
+
+## Technologies Used
+
+- HTML5 & CSS3
+- Font Awesome 5.15 for icons
+- Google Fonts (Source Sans Pro)
+- jQuery and related plugins for smooth scrolling and UI behavior
+
+## Getting Started
+
+### Prerequisites
+
+No backend or build tools are required. You only need a modern web browser to view the site.
+
+### Installation
+
+1. Clone this repository:
+
+git clone https://github.com/Nguriathi/stelar.git
 
 
-Say hello to Stellar, a slick little one-pager with a super vibrant color palette (which
-I guess you can always tone down if it's a little too vibrant for you), a "sticky" in-page
-nav bar (powered by my Scrollex plugin), a separate generic page template (just in case
-you need one), and an assortment of pre-styled elements.
+2. Navigate into the project directory:
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
-
-(* = not included)
-
-AJ
-aj@lkn.io | @ajlkn
+cd cybersecurity-cloud-services
 
 
-Credits:
 
-	Demo Images:
-		Unsplash (unsplash.com)
+3. Open `index.html` in your browser to preview the website locally.
 
-	Icons:
-		Font Awesome (fontawesome.io)
+### Deployment
 
-	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+- This site is designed to be hosted as a static website.
+- You can deploy it easily on AWS S3 by uploading the contents of the repository.
+- Ensure your S3 bucket is configured for static website hosting.
+- Optionally, use AWS CloudFront for CDN and HTTPS support.
+
+## Project Structure
+
+/
+├── assets/
+│ ├── css/
+│ │ └── main.css # Main stylesheet with custom styles and layout
+│ ├── js/
+│ │ └── main.js # JavaScript for UI interactions and scrolling
+│ └── images/
+│ └── logo.svg # Logo and other images
+├── index.html # Main landing page
+└── README.md # Project documentation
+
+
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit pull requests for any improvements or bug fixes.
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+
+*Designed and developed with ❤️ for modern cloud security awareness.*
