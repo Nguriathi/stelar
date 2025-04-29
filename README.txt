@@ -1,73 +1,89 @@
-# Cybersecurity & Cloud Services - Static Website
+# Stellar - Static Web Design Showcase
 
-Welcome to the Cybersecurity & Cloud Services static website project. This repository contains the source code for a clean, modern, and responsive informational website focused on cloud security essentials and solutions, optimized for static hosting on AWS S3.
+This project is a demonstration of static web design skills, featuring a clean, responsive, and visually engaging website built with HTML5 and CSS3. It highlights best practices in UI/UX design, accessibility, and modern web standards.
 
-## Features
+---
 
-- Responsive design with a clean UI/UX
-- Modern CSS styling with gradients and animations
-- Sections for introduction, cloud security essentials, key solutions, and call-to-action
-- Accessible and semantic HTML5 markup
-- Uses Font Awesome for icons
-- Ready for deployment on AWS S3 or any static hosting platform
+## What This Project Demonstrates
 
-## Technologies Used
+- **Static Web Design:** Semantic HTML structure, responsive layout using CSS Flexbox/Grid, custom typography, and iconography with Font Awesome.
+- **Modern Styling:** Use of gradients, shadows, animations, and a cohesive color palette to create an appealing user interface.
+- **Accessibility:** Proper use of alt attributes, semantic tags, and readable typography.
+- **Version Control:** Managing source code with Git for tracking changes and collaboration.
+- **GitHub Hosting:** Publishing the website on GitHub using a remote repository.
+- **GitHub Pages Deployment:** Hosting the static site effortlessly via GitHub Pages at:
 
-- HTML5 & CSS3
-- Font Awesome 5.15 for icons
-- Google Fonts (Source Sans Pro)
-- jQuery and related plugins for smooth scrolling and UI behavior
+  https://nguriathi.github.io/stelar/
+
+---
 
 ## Getting Started
 
 ### Prerequisites
 
-No backend or build tools are required. You only need a modern web browser to view the site.
+- Basic knowledge of Git and GitHub.
+- A modern web browser to view the site locally or online.
 
-### Installation
+### How to View Locally
 
-1. Clone this repository:
-
-git clone https://github.com/Nguriathi/stelar.git
-
+1. Clone the repository:
+git clone https://github.com/nguriathi/stelar.git
 
 2. Navigate into the project directory:
+cd stelar
 
-cd cybersecurity-cloud-services
+3. Open `index.html` in your browser.
 
+---
 
+## Using Git and GitHub
 
-3. Open `index.html` in your browser to preview the website locally.
+This project uses Git for version control:
 
-### Deployment
+- **Initialize Git:** `git init`
+- **Stage changes:** `git add .`
+- **Commit changes:** `git commit -m "Your message"`
+- **Connect to GitHub remote:**  
+`git remote add origin https://github.com/nguriathi/stelar.git`
+- **Push changes:**  
+`git push -u origin main`
 
-- This site is designed to be hosted as a static website.
-- You can deploy it easily on AWS S3 by uploading the contents of the repository.
-- Ensure your S3 bucket is configured for static website hosting.
-- Optionally, use AWS CloudFront for CDN and HTTPS support.
+---
+
+## Deploying with GitHub Pages
+
+GitHub Pages allows you to host static websites directly from your GitHub repository:
+
+1. Push your code to the `main` branch of your GitHub repository.
+2. Go to your repository on GitHub.
+3. Navigate to **Settings > Pages**.
+4. Under **Source**, select the `main` branch and root folder (`/`).
+5. Save the settings.
+6. Your site will be live at:  
+
+https://nguriathi.github.io/stelar/
+
+---
 
 ## Project Structure
 
 /
 ├── assets/
-│ ├── css/
-│ │ └── main.css # Main stylesheet with custom styles and layout
-│ ├── js/
-│ │ └── main.js # JavaScript for UI interactions and scrolling
-│ └── images/
-│ └── logo.svg # Logo and other images
-├── index.html # Main landing page
+│ ├── css/ # Stylesheets including main.css
+│ ├── js/ # JavaScript files
+│ └── images/ # Images and icons
+├── index.html # Main HTML page
 └── README.md # Project documentation
 
 
 
-## Contributing
+---
 
-Contributions are welcome! Please fork the repository and submit pull requests for any improvements or bug fixes.
+## Contact
 
-## License
+For questions or feedback, feel free to reach out:  
+Email: nguriathi.j@gmail.com
 
-This project is open source and available under the [MIT License](LICENSE).
+---
 
-
-*Designed and developed with ❤️ for modern cloud security awareness.*
+*This project is a practical showcase of static web design, Git version control, and GitHub Pages deployment.*
