@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteRule ^index\.html$ /home [NC,R=301,L]
+RewriteRule ^home$ /index.html [L]
+Options -Indexes
+ServerSignature Off
+<FilesMatch "\.(htaccess|htpasswd|ini|log|sh)$">
+  Require all denied
+</FilesMatch>
